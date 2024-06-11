@@ -1,0 +1,100 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to top, #a8e0ff, #8ee3f5, #70cad1);
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+header {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 10px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    display: inline-block;
+    font-size: 24px;
+}
+
+nav {
+    display: inline-block;
+    float: right
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.hero {
+    background: url('https://example.com/airplane.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero h2 {
+    font-size: 48px;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.models, .about, .contact {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.models h2, .about h2, .contact h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.model-card {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.model-card h3 {
+    margin-top: 0;
+}
+
+footer {
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.prono{
+margin-left: 720px;
+
+
+}
